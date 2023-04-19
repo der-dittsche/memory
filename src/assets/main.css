@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(221, 221, 221);
+}
+
+main {
+  width: 80vw;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.container {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 2px solid grey;
+  box-shadow: 5px 3px 1px grey;
+}
